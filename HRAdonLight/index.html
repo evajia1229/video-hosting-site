@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HRAdonLight Video</title>
+  <title>Let's get to know BHX7 -- $BASENAME</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    video {
+      max-width: 90%;
+      max-height: 80vh;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
 <body>
-  <h1>HRAdonLight</h1>
-  <video width="720" controls>
-    <source src="HRAdonLight.mp4" type="video/mp4">
+  <video controls>
+    <source src="$VIDEO_NAME" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </body>
